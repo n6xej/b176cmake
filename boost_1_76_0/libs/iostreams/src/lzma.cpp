@@ -12,7 +12,7 @@
 // than using it (possibly importing code).
 #define BOOST_IOSTREAMS_SOURCE
 
-#include <lzma.h>
+#include "lzma.h"
 
 #include <boost/throw_exception.hpp>
 #include <boost/iostreams/detail/config/dyn_link.hpp>
