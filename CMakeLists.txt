@@ -78,7 +78,7 @@ add_boost_lib(filesystem ${filesystem_excludes})
 add_boost_lib(iostreams ${iostreams_excludes})
 add_boost_lib(program_options ${program_options_excludes})
 add_boost_lib(regex ${regex_excludes})
-add_boost_lib(signals)
+#add_boost_lib(signals)
 add_boost_lib_subdir(thread pthread)
 add_boost_lib(date_time ${date_time_excludes})
 
