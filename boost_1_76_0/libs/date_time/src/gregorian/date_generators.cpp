@@ -15,20 +15,22 @@
 
 namespace boost {
 namespace date_time {
+BOOST_DATE_TIME_DECL void date_time_dummy_exported_function()
+{}
 
-  const char* const _nth_as_str[] = {"out of range", "first", "second",
-    "third", "fourth", "fifth"};
-    
-  //! Returns nth arg as string. 1 -> "first", 2 -> "second", max is 5.
-  BOOST_DATE_TIME_DECL const char* nth_as_str(int ele)
-  {
-    if(ele >= 1 && ele <= 5) {
-      return _nth_as_str[ele];
-    } 
-    else {
-      return _nth_as_str[0];
-    }
-  }
+//  const char* const _nth_as_str[] = {"out of range", "first", "second",
+//    "third", "fourth", "fifth"};
+//
+//  //! Returns nth arg as string. 1 -> "first", 2 -> "second", max is 5.
+//  BOOST_DATE_TIME_DECL const char* nth_as_str(int ele)
+//  {
+//    if(ele >= 1 && ele <= 5) {
+//      return _nth_as_str[ele];
+//    }
+//    else {
+//      return _nth_as_str[0];
+//    }
+//  }
 
 } } //namespace date_time 
 
